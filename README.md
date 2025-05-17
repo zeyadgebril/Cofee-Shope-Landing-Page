@@ -55,7 +55,7 @@ table-roast/
     <h2>💻 Installation</h2>
     <ol>
       <li>Clone the repository:
-        <div class="code-block">git clone https://github.com/your-username/table-roast.git</div>
+        <div class="code-block">https://github.com/zeyadgebril/Cofee-Shope-Landing-Page.git</div>
       </li>
       <li>Open <code>index.html</code> in your browser.</li>
     </ol>
