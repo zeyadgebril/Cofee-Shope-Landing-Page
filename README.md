@@ -70,7 +70,7 @@ table-roast/
   --secondary: #c4a484;  /* Light tan *//</br>
   --light: #f5f5dc;      /* Cream *//</br>
   --dark: #3a3a3a;       /* Dark gray *//</br>
-}/</br>
+}</br>
     </div>
   </div>
 
