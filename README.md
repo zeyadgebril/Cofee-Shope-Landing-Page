@@ -1,7 +1,7 @@
 <h1>☕ Table Roast Coffee Shop - Landing Page</h1>
 
   <div class="section">
-    <img src="./assets/images/shop-image.png" alt="Table Roast Preview" class="preview-img">
+    <img src="https://github.com/zeyadgebril/Cofee-Shope-Landing-Page/blob/main/assets/images/Screenshot%202025-05-18%20020817.png?raw=true" class="preview-img">
     <p>A responsive, modern landing page for <strong>Table Roast Coffee Shop</strong> featuring a carousel, menu section, testimonials, and a contact form.</p>
   </div>
 
