@@ -79,7 +79,3 @@ table-roast/
     <p>This project is deployed using <strong>Cloudflare Pages</strong>.</p>
   </div>
 
-  <div class="section">
-    <h2>📄 License</h2>
-    <p>This project is licensed under the <strong>MIT License</strong> — see the LICENSE file for details.</p>
-  </div>
