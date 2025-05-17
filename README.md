@@ -67,10 +67,10 @@ table-roast/
     <div class="code-block">
 :root {
   --primary: #6f4e37;    /* Coffee brown */</br>
-  --secondary: #c4a484;  /* Light tan */
-  --light: #f5f5dc;      /* Cream */
-  --dark: #3a3a3a;       /* Dark gray */
-}
+  --secondary: #c4a484;  /* Light tan *//</br>
+  --light: #f5f5dc;      /* Cream *//</br>
+  --dark: #3a3a3a;       /* Dark gray *//</br>
+}/</br>
     </div>
   </div>
 
