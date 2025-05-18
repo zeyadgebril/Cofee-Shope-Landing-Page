@@ -1,0 +1,44 @@
+/* menu_details.css - Fixed version */
+#menu {
+  padding: 80px 0;
+  background-color: var(--light); /* Add this to match original */
+}
+
+.coffee-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 25px;
+  border: none !important; /* Important to override Bootstrap */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.coffee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.coffee-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%; /* Add this for proper image sizing */
+}
+
+.coffee-card .card-body {
+  padding: 1.25rem; /* Match Bootstrap default */
+}
+
+.coffee-card .card-title {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem; /* Add spacing */
+}
+
+.coffee-card .card-text {
+  color: var(--dark);
+  margin-bottom: 1rem; /* Add spacing */
+}
+
+.coffee-price {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.2rem;
+}

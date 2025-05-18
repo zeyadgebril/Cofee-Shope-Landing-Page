@@ -1,5 +1,12 @@
+import './assets/js/Coffee_carousel.js';
+import './assets/js/menu_details.js';
+import './assets/js/footer.js'; 
+import './assets/js/visit_contact.js'
+import './assets/js/NavBar.js';
+import './assets/js/Testtimonials.js';
+import './assets/js/About_Us.js'
+
 document.addEventListener("DOMContentLoaded", function() {
-  // Close navbar when a link is clicked on mobile
   const navLinks = document.querySelectorAll(".nav-link");
   const navbarCollapse = document.querySelector(".navbar-collapse");
 

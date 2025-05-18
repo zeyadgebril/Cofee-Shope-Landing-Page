@@ -1,3 +1,4 @@
+/* style.css - Main styles (excluding carousel) */
 :root {
   --primary: #6f4e37;
   --secondary: #c4a484;
@@ -9,6 +10,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--dark);
   background-color: var(--light);
+  user-select: none;
 }
 
 .navbar {
@@ -31,40 +33,6 @@ body {
   color: var(--primary) !important;
 }
 
-.hero-section {
-  background-color: #fff;
-  padding: 50px 0;
-}
-
-.carousel-item {
-  min-height: 500px;
-}
-
-.carousel-caption {
-  position: relative;
-  left: 0;
-  right: 0;
-  padding: 80px 0;
-  color: var(--dark);
-}
-
-.carousel-caption h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--primary);
-  margin-bottom: 20px;
-}
-
-.carousel-caption h5 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.carousel-caption p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
 .btn-primary {
   background-color: var(--primary);
   border-color: var(--primary);
@@ -76,6 +44,7 @@ body {
   background-color: #5d4231;
   border-color: #5d4231;
 }
+
 .btn-primary:active {
   background-color: #452a19;
   border-color: #5d4231;
@@ -193,32 +162,4 @@ footer {
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 40px;
-}
-
-@media (max-width: 991px) {
-  .carousel-caption h1 {
-    font-size: 2.5rem;
-  }
-
-  .carousel-caption h5 {
-    font-size: 1.5rem;
-  }
-
-  .carousel-caption p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .carousel-item {
-    min-height: auto;
-  }
-
-  .carousel-caption {
-    padding: 40px 0;
-  }
-
-  .carousel-caption h1 {
-    font-size: 2rem;
-  }
 }
