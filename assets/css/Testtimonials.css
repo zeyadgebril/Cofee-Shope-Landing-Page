@@ -1,0 +1,27 @@
+:root {
+  --primary: #6f4e37;
+  --light: #f5f5dc;
+}
+#testimonials {
+  background-color: var(--light);
+}
+.testimonial-item {
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  color: var(--primary);
+}

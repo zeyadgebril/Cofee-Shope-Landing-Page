@@ -20,7 +20,7 @@ this.innerHTML = `
                 <h5 class="card-title">Espresso</h5>
                 <p class="card-text">
                   Pure, intense coffee flavor in a small cup. Our signature
-                  blend with notes of chocolate and hazelnut.
+                  blend with notes of chocolate .
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <span class="coffee-price">$3.50</span>
@@ -130,7 +130,7 @@ this.innerHTML = `
                 <h5 class="card-title">Mocha</h5>
                 <p class="card-text">
                   Espresso with chocolate & milk, topped with whipped cream. A
-                  delicious treat for chocolate lovers.
+                   treat for chocolate lovers.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <span class="coffee-price">$5.25</span>
